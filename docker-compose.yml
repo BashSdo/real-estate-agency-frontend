@@ -1,0 +1,13 @@
+version: "2.4"
+
+services:
+  frontend:
+    image: frontend:latest
+    container_name: frontend
+    ports:
+      - "8081:80"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080"]
+      interval: 30s
+    # volumes:
+    #   - ./frontend/config.json:/var/www/html/config.json

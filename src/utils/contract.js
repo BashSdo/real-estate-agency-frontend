@@ -1,0 +1,19 @@
+export const CONTRACT_KIND_EMPLOYMENT = 'Employment';
+export const CONTRACT_KIND_MANAGEMENT_FOR_RENT = 'Management for rent';
+export const CONTRACT_KIND_MANAGEMENT_FOR_SALE = 'Management for sale';
+export const CONTRACT_KIND_RENT = 'Rent';
+export const CONTRACT_KIND_SALE = 'Sale';
+export const CONTRACT_KINDS = [
+  CONTRACT_KIND_EMPLOYMENT,
+  CONTRACT_KIND_MANAGEMENT_FOR_RENT,
+  CONTRACT_KIND_MANAGEMENT_FOR_SALE,
+  CONTRACT_KIND_RENT,
+  CONTRACT_KIND_SALE,
+];
+export const CONTRACT_KIND_OF = {
+  EmploymentContract: CONTRACT_KIND_EMPLOYMENT,
+  ManagementForRentContract: CONTRACT_KIND_MANAGEMENT_FOR_RENT,
+  ManagementForSaleContract: CONTRACT_KIND_MANAGEMENT_FOR_SALE,
+  RentContract: CONTRACT_KIND_RENT,
+  SaleContract: CONTRACT_KIND_SALE,
+};
