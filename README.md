@@ -9,6 +9,7 @@ Frontend application for the real estate agency project. Backend application can
 To build a release Docker image run the following command:
 
 ```sh
+just install
 just image_build
 ```
 
